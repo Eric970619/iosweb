@@ -61,3 +61,16 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+/* 媒體查詢 */
+@media only screen and (max-width: 480px) {
+    body {
+        max-width: 100%;
+    }
+
+    header, nav, main, section, article, footer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
