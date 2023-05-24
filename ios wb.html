@@ -1,49 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>技術分享網站</title>
+    <title>檔案分享網站</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
-        <h1>技術分享網站</h1>
+        <h1>檔案分享網站</h1>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">首頁</a></li>
-            <li><a href="#">文章</a></li>
-            <li><a href="#">討論區</a></li>
-            <li><a href="#">關於我們</a></li>
-            <li><a href="#">聯絡我們</a></li>
-        </ul>
-    </nav>
 
     <main>
         <section>
-            <h2>最新文章</h2>
-            <article>
-                <h3>標題一</h3>
-                <p>這是一篇關於技術的文章。</p>
-            </article>
-            <article>
-                <h3>標題二</h3>
-                <p>這是另一篇關於技術的文章。</p>
-            </article>
+            <h2>上傳檔案</h2>
+            <form>
+                <input type="file" name="file" id="file">
+                <label for="file">選擇檔案</label>
+                <button type="submit">上傳</button>
+            </form>
         </section>
 
         <section>
-            <h2>熱門話題</h2>
+            <h2>分享的檔案</h2>
             <ul>
-                <li>話題一</li>
-                <li>話題二</li>
-                <li>話題三</li>
+                <li><a href="#">檔案一</a></li>
+                <li><a href="#">檔案二</a></li>
+                <li><a href="#">檔案三</a></li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <p>© 2023 技術分享網站. All rights reserved.</p>
+        <p>© 2023 檔案分享網站. All rights reserved.</p>
     </footer>
 </body>
 </html>
