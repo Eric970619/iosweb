@@ -1,28 +1,129 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>檔案分享網站</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+   <meta charset="UTF-8">
+   <title>手機應用程式</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .app-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .app-image {
+            width: 400px;
+            height: 250px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .app-description {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .app-container:target .app-description {
+            display: block;
+        }
+
+        /* Adjusted font sizes */
+        h3 {
+            font-size: 34px;
+        }
+
+        p {
+            font-size: 23px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>檔案分享網站</h1>
+        <h1>手機應用程式</h1>
     </header>
 
     <main>
-        <section>
-            <h2>分享的檔案</h2>
-            <ul>
-                <li><a href="#">檔案一</a></li>
-                <li><a href="#">檔案二</a></li>
-                <li><a href="#">檔案三</a></li>
-            </ul>
-        </section>
+        <div class="app-container" id="app1">
+            <a href="#app1">
+                <img src="https://cdn.discordapp.com/attachments/1110906621091123311/1110916455257624640/newyoutube.png" alt="App Image 1" class="app-image">
+            </a>
+            <div class="app-description">
+                <h3>免費Youtube會員</h3>
+                <p>解鎖了YT會員功能！<br>刪除原版後即可登入！ 
+      <br>  <a href="https://1drv.ms/u/s!AhoI0haC96z0ihixqTnoONRkEJ6Z?e=yWlaaO">點我下載</a>
+			</p>
+            </div>
+        </div>
+
+        <div class="app-container" id="app2">
+            <a href="#app2">
+                <img src="https://cdn.discordapp.com/attachments/1110906621091123311/1110926785400557618/IMG_1065.png" alt="App Image 2" class="app-image">
+            </a>
+            <div class="app-description">
+                <h3>App 2</h3>
+                <p>這是App 2的介紹。</p>
+            </div>
+        </div>
+
+        <div class="app-container" id="app3">
+            <a href="#app3">
+                <img src="image3.jpg" alt="App Image 3" class="app-image">
+            </a>
+            <div class="app-description">
+                <h3>App 3</h3>
+                <p>這是App 3的介紹。</p>
+            </div>
+        </div> 
+        <div class="app-container" id="app4">
+            <a href="#app4">
+                <img src="image4.jpg" alt="App Image 4" class="app-image">
+            </a>
+            <div class="app-description">
+                <h3>App 4</h3>
+                <p>這是App 4的介紹。</p>
+            </div>
+        </div>
+        <div class="app-container" id="app5">
+            <a href="#app5">
+                <img src="image5.jpg" alt="App Image 5" class="app-image">
+            </a>
+            <div class="app-description">
+                <h3>App 5</h3>
+                <p>這是App 5的介紹。</p>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>© 2023 檔案分享網站. All rights reserved.</p>
+        <p>© 2023 Eric v1.0.0 All scripts by Eric970619</p>
     </footer>
 </body>
 </html>
-
